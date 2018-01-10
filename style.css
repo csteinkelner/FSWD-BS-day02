@@ -45,3 +45,7 @@ a{
 .pict{
 	width: 100%;
 }
+.jumbotron{
+	background-image: url('Totoro-Forest.jpg');
+	background-size: 100%;
+}
