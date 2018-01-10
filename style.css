@@ -2,9 +2,9 @@
 	margin: 0;
 }
 body{
-	background-image: url('backg.jpg');
+	background-image: url('pics/backg.jpg');
 	/* background-color:rgba(103,122,92,0.5); */
-	height: 900px
+	height: 950px
 }
 header{
 	background-color: #153E2C;
@@ -28,7 +28,7 @@ i{
 .container{
 	background-color: #ABA3A1;
 	padding: 0;
-	height: 200%;
+	height: 150%;
 }
 .container p{
 	padding-right: 20px;
@@ -42,10 +42,27 @@ a{
 .left{
 	font-size: 2em;
 }
-.pict{
+#pict{
+	width: 100%;
+}
+.pic{
+	width: 49%;
+}
+.S{
+	float: right;
+}
+.pic2{
 	width: 100%;
 }
 .jumbotron{
-	background-image: url('Totoro-Forest.jpg');
+	background-image: url('pics/Totoro-Forest.jpg');
 	background-size: 100%;
+}
+.jumbotron .btn{
+	background-color: #153E2C;
+}
+.carpic{
+	width: 30%;
+	margin-right: 35%;
+	margin-left: 35%;
 }
